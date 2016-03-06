@@ -25,22 +25,7 @@ var Rx = require('rx'),
   webpackConfig = require('./webpack.config.js'),
   webpackConfigNode = require('./webpack.config.node.js'),
 
-  // server process
-  nodemon = require('gulp-nodemon'),
-  sync = require('browser-sync'),
-
-  // css
-  less = require('gulp-less'),
-
-  // rev
-  rev = require('gulp-rev'),
-  revReplace = require('gulp-rev-replace'),
-  revDel = require('rev-del'),
-
-  // lint
-  jsonlint = require('gulp-jsonlint'),
-  eslint = require('gulp-eslint'),
-
+ 
   // unit-tests
   tape = require('gulp-tape'),
   tapSpec = require('tap-spec');
